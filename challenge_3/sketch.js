@@ -18,7 +18,9 @@ function draw() {
 	fill(239, 65, 54);
 	stroke(239, 65, 54);
 	strokeWeight(18);
-	
 	line(30 + mouseX, 20 + mouseY, 85 + mouseX, 75 + mouseY);
 	line(30 + mouseX, 75 + mouseY, 85 + mouseX, 20 + mouseY);
+
 }
+
+		

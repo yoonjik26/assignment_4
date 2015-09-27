@@ -37,5 +37,8 @@ function draw() {
 		ellipse(xPositions[i], yPositions[i], size - 30, size - 30);
 	}
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master

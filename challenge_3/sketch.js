@@ -4,12 +4,11 @@ function setup() {
 	noStroke();
 	// noLoop();
 }
-
 function draw() {
 	// clear the background
 	background(77, 78, 96);
-	var crossX = constrain(mouseX, 50, 270);
-	var crossY = constrain(mouseY, 50, 430);
+	var crossX = constrain(mouseX, -30, 220);
+	var crossY = constrain(mouseY, 0, 380);
 
 	println("crossX = " + crossX);
 	println("crossY = " + crossY);
@@ -25,15 +24,4 @@ function draw() {
 
 	line(23 + crossX, 23 + crossY, 78 + crossX, 78 + crossY);
 	line(23 + crossX, 78 + crossY, 78 + crossX, 23 + crossY);
-
-	// if(mouseX > 220){
-	// 	line(23 + 220, 23 + mouseY, 78 + 220, 78 + mouseY);
-	// 	line(23 + 220, 78 + mouseY, 78 + 220, 23 + mouseY);
-	// }
-	// if(mouseY > 380){
-	// 	line(23 + mouseX, 23 + 380, 78 + mouseX, 78 + 380);
-	// 	line(23 + mouseX, 78 + 380, 78 + mouseX, 23 + 380);
-	// }
 }
-
-		

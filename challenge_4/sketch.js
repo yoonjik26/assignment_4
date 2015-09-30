@@ -17,6 +17,7 @@ function draw() {
     x[i].display();
   }
 }
+<<<<<<< HEAD
 
 function Jitter() {
   this.x = random(width);
@@ -33,3 +34,21 @@ function Jitter() {
     ellipse(this.x, this.y, this.diameter, this.diameter);
   };
 }
+=======
+
+function Jitter() {
+  this.x = random(width);
+  this.y = random(height);
+  this.diameter = random(10, 30);
+  this.speed = 5;
+
+  this.move = function() {
+    this.x += random(-this.speed, this.speed);
+    this.y += random(-this.speed, this.speed);
+  };
+
+  this.display = function() {
+    ellipse(this.x, this.y, this.diameter, this.diameter);
+  };
+}
+>>>>>>> origin/master

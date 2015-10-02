@@ -13,7 +13,7 @@ function setup() {
 	fill(57, 177, 74);
 	rect(0, 280, 640, 200);
 
-	for (var i = 0; i < 100; i++){
+	for (var i = 0; i < 40; i++){
 		xPositions[i] = random(0, 640);
 		yPositions[i] = random(200, 500);
 	}

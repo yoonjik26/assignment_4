@@ -10,9 +10,6 @@ function draw() {
 	var crossX = constrain(mouseX, -30, 220);
 	var crossY = constrain(mouseY, 0, 380);
 
-	println("crossX = " + crossX);
-	println("crossY = " + crossY);
-
 	// set a fill color
 	fill(0, 0, 0);
 	rect(50, 50, 220, 380);

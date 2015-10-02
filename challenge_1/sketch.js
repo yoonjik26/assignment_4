@@ -7,12 +7,15 @@ function setup() {
 	noStroke();
 	noLoop();
 	colorMode(RGB);
+	// clear the background
 	background(100, 185, 235);
+	// draw ground
 	fill(57, 177, 74);
 	rect(0, 280, 640, 200);
-	for (var i = 0; i < 40; i++){
+
+	for (var i = 0; i < 100; i++){
 		xPositions[i] = random(0, 640);
-		yPositions[i] = random(200, 400);
+		yPositions[i] = random(200, 500);
 	}
 }
 

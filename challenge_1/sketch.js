@@ -15,6 +15,7 @@ function setup() {
 		yPositions[i] = random(200, 400);
 	}
 }
+
 function draw() {
 	var size = 40;
 	for (var i = 0; i < 40; i++){

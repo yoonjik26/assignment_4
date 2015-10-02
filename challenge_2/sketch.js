@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 var ball = {x: 500, y: 100, speedX: 5, speedY: 5, radius: 25};
 var paddle = {x: 0, y: 350, width: 300, height: 30};
 
-
-=======
->>>>>>> origin/master
 function setup() {
 	createCanvas(640, 480);
 	noStroke();

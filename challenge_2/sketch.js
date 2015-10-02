@@ -20,8 +20,6 @@ function updateBall() {
 	ball.x = ball.x + ball.speedX;
 	ball.y = ball.y + ball.speedY;
 
-	// don't let the ball go to far
-
 	// right
 	if (ball.x > 640 - ball.radius) {
 		ball.speedX = -ball.speedX;

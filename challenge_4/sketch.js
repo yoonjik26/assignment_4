@@ -5,7 +5,7 @@ function setup() {
   noStroke();
   fill(43, 255, 255);
   // Create objects
-  for (var i=0; i<6; i++) {
+  for (var i=0; i<30; i++) {
     x.push(new Jitter());
   }
 }
@@ -16,6 +16,7 @@ function draw() {
     x[i].move();
     x[i].display();
   }
+}
 
 function Jitter() {
   this.x = random(width);
